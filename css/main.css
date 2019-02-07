@@ -1,8 +1,13 @@
 body {
-  background: rebeccapurple
+  background: rebeccapurple;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 .pretty-title {
+  width: 100%;
+  text-align: center;
   font-family: 'Merriweather', serif;
   font-weight: 700;
   color: darkkhaki;
