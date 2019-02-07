@@ -38,3 +38,22 @@ body {
 .flex-a-c {
   align-items: center;
 }
+
+
+.warning {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-left: 10px;
+  width: 35%;
+  background: whitesmoke;
+  box-shadow: inset 0px 0px 10px black;
+  padding: 10px;
+  color: navy;
+}
+
+.warning::before, .warning::after {
+  font-family: sans-serif;
+  content: "⚠";
+  color: crimson;
+}
