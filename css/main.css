@@ -12,3 +12,29 @@ body {
   font-weight: 700;
   color: darkkhaki;
 }
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-j-c {
+  justify-content: center;
+}
+
+.flex-j-sa {
+  justify-content: space-around;
+}
+
+.flex-j-sb {
+  justify-content: space-between;
+}
+
+.flex-a-c {
+  align-items: center;
+}
